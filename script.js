@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const method = localStorage.getItem('isAuthorized') ? 'PUT' : 'POST';
 
             try {
-                const response = await fetch('/api/form', {
+                const response = await fetch('index.php?route=api/form', {
                     method: method,
                     headers: {
                         'Content-Type': 'application/json',
