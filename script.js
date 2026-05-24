@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <p>Успешно! Ваши данные для входа:</p>
                             <p>Логин: <b>${result.credentials.login}</b></p>
                             <p>Пароль: <b>${result.credentials.password}</b></p>
-                            <p>Профиль: <a href="${result.credentials.profile_url}" style="color: #ff5d44;">Ссылка</a></p>
+                            <p>Профиль: <a href="/project-2405/${result.credentials.profile_url}" style="color: #ff5d44;">Ссылка</a></p>
                             <p><small>Теперь при повторной отправке данные будут обновляться (метод PUT).</small></p>
                         `;
                     } else {
